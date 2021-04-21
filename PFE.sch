@@ -11685,9 +11685,9 @@ distributor Schukat</description>
 <wire x1="147.32" y1="86.36" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="86.36" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="68.58" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="68.58" x2="200.66" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="ULN2803A1" gate="G$1" pin="O3"/>
-<wire x1="200.66" y1="35.56" x2="185.42" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="68.58" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="ULN2803A1" gate="G$1" pin="O2"/>
+<wire x1="185.42" y1="33.02" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -11697,11 +11697,11 @@ distributor Schukat</description>
 <pinref part="R29" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="170.18" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
 <junction x="154.94" y="170.18"/>
-<wire x1="121.92" y1="170.18" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="63.5" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="63.5" x2="195.58" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="170.18" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="60.96" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="60.96" x2="193.04" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="ULN2803A1" gate="G$1" pin="O5"/>
-<wire x1="195.58" y1="40.64" x2="185.42" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="40.64" x2="185.42" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$65" class="0">
@@ -11996,11 +11996,11 @@ distributor Schukat</description>
 <wire x1="154.94" y1="149.86" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
 <junction x="154.94" y="149.86"/>
 <wire x1="154.94" y1="149.86" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="149.86" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="66.04" x2="198.12" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="149.86" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="63.5" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="63.5" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="ULN2803A1" gate="G$1" pin="O4"/>
-<wire x1="198.12" y1="38.1" x2="185.42" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="38.1" x2="185.42" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -12269,8 +12269,13 @@ distributor Schukat</description>
 <pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="129.54" x2="157.48" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="129.54" x2="127" y2="129.54" width="0.1524" layer="91"/>
 <junction x="154.94" y="129.54"/>
-<wire x1="154.94" y1="129.54" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="127" y1="129.54" x2="127" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="127" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="66.04" x2="198.12" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="ULN2803A1" gate="G$1" pin="O3"/>
+<wire x1="198.12" y1="35.56" x2="185.42" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$70" class="0">
